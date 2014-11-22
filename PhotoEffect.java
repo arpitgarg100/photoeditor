@@ -120,7 +120,7 @@ public class PhotoEffect {
 	 */
 	public static Photo rotate(Photo image) {
 		// Let me save you some time.
-		return rotate(rotate(rotate(image)));
+		return rotateLeft(rotateLeft(rotateLeft(image)));
 	}
 
 	/** 
